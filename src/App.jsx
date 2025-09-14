@@ -20,7 +20,7 @@ function App() {
         <Form resumeData={resumeData} setResumeData={setResumeData} />
         <ResumePreview resumeData={resumeData} />
       </div>
-      <Template1 data={resumeData} />
+   
     </div>
   );
 }
