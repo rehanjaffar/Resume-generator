@@ -13,7 +13,7 @@ export default function ResumePreview({ resumeData }) {
       <Template1 data={resumeData} />
       <button
         onClick={handleDownload}
-        className="mt-4 px-4 py-2 bg-green-500 text-white rounded"
+        className="mt-4 px-4 py-2 bg-green-500 text-white rounded cursor-pointer hover:bg-green-600 transition-colors"
       >
         Download PDF
       </button>
